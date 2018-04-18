@@ -1,0 +1,22 @@
+{
+    "editor.wordWrapColumn": 110,
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true,
+        "**/.vscode": true,
+        "**/*.pyc": true,
+        "**/__pycache__": true,
+        "**/*~": true,
+        "**/.settings": true
+    },
+    "extensions.ignoreRecommendations": false
+    "window.zoomLevel": 0,
+    "editor.minimap.enabled": false,
+    "window.menuBarVisibility": "toggle",
+    "autoDocstring.docstringFormat": "google",
+    "python.formatting.provider": "yapf",
+    "python.linting.enabled": false,
+    "python.linting.pep8Enabled": true,
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.iconTheme": "vscode-great-icons"
+}

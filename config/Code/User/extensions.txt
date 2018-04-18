@@ -1,0 +1,11 @@
+DavidAnson.vscode-markdownlint
+PeterJausovec.vscode-docker
+emmanuelbeziat.vscode-great-icons
+joslarson.black-vscode
+lfs.vscode-emacs-friendly
+lukehoban.Go
+mauve.terraform
+ms-python.python
+njpwerner.autodocstring
+redhat.vscode-yaml
+rust-lang.rust
