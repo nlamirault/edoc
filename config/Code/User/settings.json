@@ -1,22 +1,39 @@
 {
-    "editor.wordWrapColumn": 110,
-    "files.exclude": {
-        "**/bin": true,
-        "**/obj": true,
-        "**/.vscode": true,
-        "**/*.pyc": true,
-        "**/__pycache__": true,
-        "**/*~": true,
-        "**/.settings": true
-    },
-    "extensions.ignoreRecommendations": false
-    "window.zoomLevel": 0,
-    "editor.minimap.enabled": false,
-    "window.menuBarVisibility": "toggle",
-    "autoDocstring.docstringFormat": "google",
-    "python.formatting.provider": "yapf",
-    "python.linting.enabled": false,
-    "python.linting.pep8Enabled": true,
-    "workbench.statusBar.feedback.visible": false,
-    "workbench.iconTheme": "vscode-great-icons"
+  // misc
+  "telemetry.enableTelemetry": false,
+
+  "files.associations": {
+    "Dockerfile.*":"dockerfile"
+  },
+  "files.exclude": {
+    "**/obj": true,
+    "**/.vscode": true,
+    "**/*.pyc": true,
+    "**/__pycache__": true,
+    "**/*~": true,
+    "**/.settings": true
+  },
+
+  // ui
+  "window.zoomLevel": 0,
+  "editor.minimap.enabled": false,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.iconTheme": "vscode-great-icons",
+  "editor.rulers": [
+    80, 120
+  ],
+
+  "window.menuBarVisibility": "toggle",
+  "workbench.editor.enablePreview": false,
+  "files.trimTrailingWhitespace": true,
+
+  // python
+  "autoDocstring.docstringFormat": "google",
+  "python.formatting.provider": "yapf",
+  "python.linting.enabled": true,
+  //"python.linting.pep8Enabled": true,
+
+  // golang
+  "go.formatTool": "gofmt",
+
 }
