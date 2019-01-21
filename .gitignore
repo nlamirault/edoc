@@ -1,27 +1,18 @@
 # Emacs
 *~
-src/.recentf
-src/anaconda-mode/
-src/bbdb
-src/bookmarks
-src/emojis/
-src/org-clock-save.el
-src/places
-src/projectile-bookmarks.eld
-src/projectile.cache
-src/recentf
-src/request/
-src/url/
 
-# Emacslisp
-.cask
-elpa
-.projectile
-*.elc
-test/sandbox/
-
-doc/scame.html
-doc/scame.pdf
-doc/scame.epub
-
-.vagrant
+# VSCode
+config/Code/Backups/
+config/Code/Cache/
+config/Code/CachedData/
+config/Code/CachedExtensions/
+config/Code/Cookies
+config/Code/Cookies-journal
+config/Code/GPUCache/
+config/Code/Local Storage/
+config/Code/Preferences
+config/Code/User/workspaceStorage/
+config/Code/languagepacks.json
+config/Code/logs/
+config/Code/machineid
+config/Code/storage.json
