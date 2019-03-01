@@ -7,7 +7,7 @@ This is a [vscode][] configuration.
 ## Installation
 
     $ git clone git://github.com/nlamirault/edoc.git ~/Apps/edoc
-    $ ln -s ~/Apps/edoc/config/Code/User/ ~/.config/Code/User
+    $ make install
 
 
 ## License

@@ -45,4 +45,4 @@ install: ## Install configuration
 
 uninstall: ## Uninstall configuration
 	@echo -e "$(OK_COLOR)Uninstall configurations$(NO_COLOR)"
-	@rm -f ${HOME}/.config/nvim
+	@rm -f ${HOME}/.config/Code

@@ -1,7 +1,39 @@
+// Copyright (C) 2018-2019 Nicolas Lamirault <nicolas.lamirault@gmail.com>
+
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
 {
     // misc
     "telemetry.enableTelemetry": false,
 
+    // Editor settings
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        88, 120
+    ],
+    "editor.wordWrapColumn": 110,
+
+    // UI
+    "window.titleBarStyle": "native",
+    "window.zoomLevel": 0,
+    "window.menuBarVisibility": "toggle",
+
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.editor.enablePreview": false,
+
+    "files.trimTrailingWhitespace": true,
     "files.associations": {
         "Dockerfile.*": "dockerfile",
         "*.bashrc": "shellscript",
@@ -14,22 +46,9 @@
         "**/*.pyc": true,
         "**/__pycache__": true,
         "**/*~": true,
+        "**/.DS_Store": true,
         "**/.settings": true
     },
-
-    // ui
-    "window.zoomLevel": 0,
-    "editor.minimap.enabled": false,
-    "workbench.statusBar.feedback.visible": false,
-    "workbench.iconTheme": "vscode-great-icons",
-    "editor.rulers": [
-        88, 120
-    ],
-    "editor.wordWrapColumn": 110,
-
-    "window.menuBarVisibility": "toggle",
-    "workbench.editor.enablePreview": false,
-    "files.trimTrailingWhitespace": true,
 
     // python
     "autoDocstring.docstringFormat": "google",
@@ -56,77 +75,79 @@
     "[javascript]": {
         "editor.tabSize": 2
     },
+
+    // wal
     "wal.tokenColorTheme": "Dark (Visual Studio)",
     "workbench.colorCustomizations": {
         "[Wal]": {
-            "focusBorder": "#6d9cbe",
-            "foreground": "#ffffff",
-            "widget.shadow": "#474747",
-            "selection.background": "#da4939",
-            "descriptionForeground": "#6d9cbe",
-            "errorForeground": "#da4939",
-            "input.background": "#393939",
-            "input.foreground": "#c2c2c2",
-            "input.placeholderForeground": "#474747",
-            "inputOption.activeBorder": "#6d9cbe",
-            "inputValidation.errorBackground": "#da4939",
-            "inputValidation.errorBorder": "#da4939",
-            "inputValidation.infoBackground": "#6d9cbe",
-            "inputValidation.infoBorder": "#6d9cbe",
-            "inputValidation.warningBackground": "#d0d26b",
-            "inputValidation.warningBorder": "#d0d26b",
-            "list.invalidItemForeground": "#da4939",
-            "list.errorForeground": "#da4939",
-            "list.warningForeground": "#d0d26b",
-            "terminal.background": "#000000",
-            "terminal.foreground": "#ffffff",
-            "terminalCursor.background": "#000000",
-            "terminalCursor.foreground": "#ff6c5c",
-            "terminal.ansiBlack": "#393939",
-            "terminal.ansiRed": "#da4939",
-            "terminal.ansiGreen": "#9acc79",
-            "terminal.ansiYellow": "#d0d26b",
-            "terminal.ansiBlue": "#6d9cbe",
-            "terminal.ansiMagenta": "#9f5079",
-            "terminal.ansiCyan": "#435d75",
-            "terminal.ansiWhite": "#c2c2c2",
-            "terminal.ansiBrightBlack": "#474747",
-            "terminal.ansiBrightRed": "#da4939",
-            "terminal.ansiBrightGreen": "#9acc79",
-            "terminal.ansiBrightYellow": "#d0d26b",
-            "terminal.ansiBrightBlue": "#6d9cbe",
-            "terminal.ansiBrightMagenta": "#9f5079",
-            "terminal.ansiBrightCyan": "#435d75",
-            "terminal.ansiBrightWhite": "#c2c2c2",
-            "activityBar.background": "#000000",
-            "activityBar.foreground": "#ffffff",
-            "sideBarSectionHeader.background": "#000000",
-            "sideBar.background": "#000000",
-            "sideBar.foreground": "#ffffff",
-            "statusBar.background": "#9f5079",
-            "statusBar.foreground": "#c2c2c2",
-            "statusBar.debuggingBackground": "#9acc79",
-            "statusBar.noFolderBackground": "#9acc79",
-            "tab.activeBackground": "#000000",
-            "tab.activeForeground": "#ffffff",
-            "editor.background": "#000000",
-            "editorOverviewRuler.modifiedForeground": "#d0d26b",
-            "editorOverviewRuler.addedForeground": "#9acc79",
-            "editorOverviewRuler.deletedForeground": "#da4939",
-            "editorOverviewRuler.warningForeground": "#d0d26b",
-            "editorOverviewRuler.infoForeground": "#6d9cbe",
-            "editorOverviewRuler.errorForeground": "#da4939",
-            "editorGutter.background": "#000000",
-            "editorGutter.modifiedBackground": "#d0d26b",
-            "editorGutter.addedBackground": "#9acc79",
-            "editorGutter.deletedBackground": "#da4939",
-            "editorError.foreground": "#da4939",
-            "editorWarning.foreground": "#d0d26b",
-            "editorInfo.foreground": "#6d9cbe",
-            "editorHint.foreground": "#9acc79",
-            "gitDecoration.modifiedResourceForeground": "#d0d26b",
-            "gitDecoration.deletedResourceForeground": "#da4939",
-            "gitDecoration.untrackedResourceForeground": "#9acc79"
+            "focusBorder": "#55b5db",
+            "foreground": "#d6d6d6",
+            "widget.shadow": "#41535B",
+            "selection.background": "#Cd3f45",
+            "descriptionForeground": "#55b5db",
+            "errorForeground": "#Cd3f45",
+            "input.background": "#151718",
+            "input.foreground": "#d6d6d6",
+            "input.placeholderForeground": "#41535B",
+            "inputOption.activeBorder": "#55b5db",
+            "inputValidation.errorBackground": "#Cd3f45",
+            "inputValidation.errorBorder": "#Cd3f45",
+            "inputValidation.infoBackground": "#55b5db",
+            "inputValidation.infoBorder": "#55b5db",
+            "inputValidation.warningBackground": "#e6cd69",
+            "inputValidation.warningBorder": "#e6cd69",
+            "list.invalidItemForeground": "#Cd3f45",
+            "list.errorForeground": "#Cd3f45",
+            "list.warningForeground": "#e6cd69",
+            "terminal.background": "#151718",
+            "terminal.foreground": "#d6d6d6",
+            "terminalCursor.background": "#151718",
+            "terminalCursor.foreground": "#d6d6d6",
+            "terminal.ansiBlack": "#151718",
+            "terminal.ansiRed": "#Cd3f45",
+            "terminal.ansiGreen": "#9fca56",
+            "terminal.ansiYellow": "#e6cd69",
+            "terminal.ansiBlue": "#55b5db",
+            "terminal.ansiMagenta": "#a074c4",
+            "terminal.ansiCyan": "#55dbbe",
+            "terminal.ansiWhite": "#d6d6d6",
+            "terminal.ansiBrightBlack": "#41535B",
+            "terminal.ansiBrightRed": "#Cd3f45",
+            "terminal.ansiBrightGreen": "#9fca56",
+            "terminal.ansiBrightYellow": "#e6cd69",
+            "terminal.ansiBrightBlue": "#55b5db",
+            "terminal.ansiBrightMagenta": "#a074c4",
+            "terminal.ansiBrightCyan": "#55dbbe",
+            "terminal.ansiBrightWhite": "#ffffff",
+            "activityBar.background": "#151718",
+            "activityBar.foreground": "#d6d6d6",
+            "sideBarSectionHeader.background": "#151718",
+            "sideBar.background": "#151718",
+            "sideBar.foreground": "#d6d6d6",
+            "statusBar.background": "#a074c4",
+            "statusBar.foreground": "#d6d6d6",
+            "statusBar.debuggingBackground": "#9fca56",
+            "statusBar.noFolderBackground": "#9fca56",
+            "tab.activeBackground": "#151718",
+            "tab.activeForeground": "#d6d6d6",
+            "editor.background": "#151718",
+            "editorOverviewRuler.modifiedForeground": "#e6cd69",
+            "editorOverviewRuler.addedForeground": "#9fca56",
+            "editorOverviewRuler.deletedForeground": "#Cd3f45",
+            "editorOverviewRuler.warningForeground": "#e6cd69",
+            "editorOverviewRuler.infoForeground": "#55b5db",
+            "editorOverviewRuler.errorForeground": "#Cd3f45",
+            "editorGutter.background": "#151718",
+            "editorGutter.modifiedBackground": "#e6cd69",
+            "editorGutter.addedBackground": "#9fca56",
+            "editorGutter.deletedBackground": "#Cd3f45",
+            "editorError.foreground": "#Cd3f45",
+            "editorWarning.foreground": "#e6cd69",
+            "editorInfo.foreground": "#55b5db",
+            "editorHint.foreground": "#9fca56",
+            "gitDecoration.modifiedResourceForeground": "#e6cd69",
+            "gitDecoration.deletedResourceForeground": "#Cd3f45",
+            "gitDecoration.untrackedResourceForeground": "#9fca56"
         }
     },
     "editor.tokenColorCustomizations": {
@@ -479,6 +500,5 @@
         }
     },
     "[terraform]": {},
-    "workbench.activityBar.visible": true,
-    "window.titleBarStyle": "native",
+
 }
